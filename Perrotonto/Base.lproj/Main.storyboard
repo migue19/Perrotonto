@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="3HA-H2-OV6">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="3HA-H2-OV6">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -36,11 +36,21 @@
                                     <segue destination="Qti-PR-rWT" kind="show" id="Obp-wn-E5F"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="idW-bS-fnH">
+                                <rect key="frame" x="0.0" y="142" width="375" height="30"/>
+                                <state key="normal" title="esta es una prueba"/>
+                                <connections>
+                                    <action selector="HacerAlgo:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Mez-Zl-6e9"/>
+                                </connections>
+                            </button>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.74077634160000005" green="0.1208850714" blue="0.1374964004" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="YGp-tU-Z7P" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="0od-hc-taI"/>
+                            <constraint firstItem="idW-bS-fnH" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="9Je-lY-wtS"/>
+                            <constraint firstItem="idW-bS-fnH" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="Loc-Ja-h0D"/>
                             <constraint firstItem="YGp-tU-Z7P" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="N4I-JH-I5q"/>
+                            <constraint firstItem="idW-bS-fnH" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="78" id="Tce-jS-dh3"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="7a9-ta-n1E"/>
